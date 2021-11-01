@@ -15,6 +15,3 @@ alias gm='git merge'
 alias gl='git lg'
 alias gs='git status'
 alias jenkins='docker run --rm -it jenkins_cli'
-
-set -x PATH $PATH /home/EU.BSHG.COM/buettner/.sdkman/candidates/kotlin/current/bin
-set -x PATH $PATH /home/EU.BSHG.COM/buettner/.sdkman/candidates/kscript/current/bin

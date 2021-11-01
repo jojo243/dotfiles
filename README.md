@@ -19,6 +19,7 @@ Bootstrap:
 finish bootstrap script
 
 - fish plugin install
+- tide prompt config
 - vim plugin install
 - dconf changes
 - apt-get packages
