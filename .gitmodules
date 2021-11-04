@@ -21,6 +21,7 @@
 [submodule "gnome-shell-extensions"]
 	path = .local/share/gnome-shell/extensions/gnome-shell-extensions
 	url = https://gitlab.gnome.org/GNOME/gnome-shell-extensions.git
+
 [submodule "horizontal-workspace-indicator"]
 	path = .local/share/gnome-shell/extensions/horizontal-workspace-indicator
 	url = https://github.com/tty2/horizontal-workspace-indicator.git
