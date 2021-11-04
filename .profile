@@ -33,3 +33,7 @@ if [ -d "$HOME/.sdkman/candidates/kscript/current/bin" ] ; then
     PATH="$PATH:$HOME/.sdkman/candidates/kscript/current/bin"
 fi
 
+if [ -d "$HOME/.cargo/bin" ] ; then
+    PATH="$PATH:$HOME/.cargo/bin"
+fi
+

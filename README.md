@@ -12,15 +12,16 @@ sudo apt-get install yadm
 
 Bootstrap:
 
-[yadm bootstrap](https://yadm.io/docs/bootstrap)
+```bash
+yadm clone https://github.com/jojo243/dotfiles
+yadm status
+```
 
 ## Todo
 
 finish bootstrap script
 
-- fish plugin install
-- tide prompt config
-- vim plugin install
 - dconf changes
 - apt-get packages
+- fonts
 
