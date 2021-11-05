@@ -9,3 +9,4 @@
 [submodule "macOS-Dark"]
 	path = .themes/macOS-Dark
 	url = https://github.com/B00merang-Project/macOS-Dark.git 
+
