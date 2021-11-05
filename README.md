@@ -25,6 +25,5 @@ finish bootstrap script
 - apt-get packages
 - fonts
 - submodules
-- proxy config
 - bootstrap script stops after fisher script
 - gnome shell extensions

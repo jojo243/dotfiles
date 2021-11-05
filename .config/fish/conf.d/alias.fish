@@ -1,0 +1,6 @@
+alias gc='git checkout'
+alias gr='git rebase'
+alias gm='git merge'
+alias gl='git lg'
+alias gs='git status'
+alias jenkins='docker run --rm -it jenkins_cli'
