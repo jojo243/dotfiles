@@ -24,4 +24,7 @@ finish bootstrap script
 - dconf changes
 - apt-get packages
 - fonts
-
+- submodules
+- proxy config
+- bootstrap script stops after fisher script
+- gnome shell extensions

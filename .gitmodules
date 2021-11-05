@@ -10,18 +10,3 @@
 	path = .themes/macOS-Dark
 	url = https://github.com/B00merang-Project/macOS-Dark.git 
 
-[submodule "clipboard-indicator"]
-	path = .local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
-	url = https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git
-
-[submodule "nightthemeswitcher"]
-	path = .local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr
-	url = https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension.git
-
-[submodule "gnome-shell-extensions"]
-	path = .local/share/gnome-shell/extensions/gnome-shell-extensions
-	url = https://gitlab.gnome.org/GNOME/gnome-shell-extensions.git
-
-[submodule "horizontal-workspace-indicator"]
-	path = .local/share/gnome-shell/extensions/horizontal-workspace-indicator
-	url = https://github.com/tty2/horizontal-workspace-indicator.git
