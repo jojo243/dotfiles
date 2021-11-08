@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -eu
+
+cd ~/.local/share/applications
+
+dodiff() {
+	test -f "$1.desktop"
+	test -f "$1-ownlogo.desktop"
+	test -f "$1.diff"
+	diff -u "$1-ownlogo.desktop" "$1.desktop" > "$1.diff.now" || true
+	diff -u "$1.diff.now" "$1.diff"
+	rm "$1.diff.now"
+}
+
+dodiff jetbrains-idea-ce
+dodiff jetbrains-pycharm-ce
+
