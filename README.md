@@ -27,3 +27,5 @@ finish bootstrap script
 - submodules
 - bootstrap script stops after fisher script
 - gnome shell extensions
+- alacritty terminfo
+

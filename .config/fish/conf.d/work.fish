@@ -1,4 +1,4 @@
-if [ (cat /var/lib/dbus/machine-id) != f418507ffeb6301818923bfe5ec72b05 ]
+if [ "$MACHINE" = "work" ]
     # See http://wiki.bshg.com/x/WoMJCg for further information.
     set -x http_proxy http://localhost:3128
     set -x https_proxy http://localhost:3128

@@ -13,6 +13,9 @@ dodiff() {
 	rm "$1.diff.now"
 }
 
-dodiff jetbrains-idea-ce
+if [ "$MACHINE" = "work" ]; then
+	dodiff jetbrains-idea-ce
+fi
+
 dodiff jetbrains-pycharm-ce
 
