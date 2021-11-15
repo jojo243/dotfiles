@@ -15,6 +15,9 @@ dodiff() {
 
 if [ "$MACHINE" = "work" ]; then
 	dodiff jetbrains-idea-ce
+elif [ "$MACHINE" = "home" ]; then
+	dodiff jetbrains-toolbox
+	dodiff jetbrains-studio
 fi
 
 dodiff jetbrains-pycharm-ce
