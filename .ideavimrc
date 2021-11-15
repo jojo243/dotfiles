@@ -26,4 +26,15 @@ map Q gq
 
 " Find more examples here: https://jb.gg/share-ideavimrc
 
+" make clipboard shared
 set clipboard+=unnamed
+set clipboard+=ideaput
+
+" disable bell
+set visualbell
+set noerrorbells
+
+" use relative numbers
+set number
+set relativenumber number
+

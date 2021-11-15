@@ -33,3 +33,4 @@ set relativenumber number
 
 set noshowmode
 set clipboard=unnamedplus
+
