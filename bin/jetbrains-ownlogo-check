@@ -13,12 +13,11 @@ dodiff() {
 	rm "$1.diff.now"
 }
 
-if [ "$MACHINE" = "work" ]; then
-	dodiff jetbrains-idea-ce
-elif [ "$MACHINE" = "home" ]; then
+if [ "$MACHINE" = "home" ]; then
 	dodiff jetbrains-toolbox
 	dodiff jetbrains-studio
 fi
 
+dodiff jetbrains-idea-ce
 dodiff jetbrains-pycharm-ce
 

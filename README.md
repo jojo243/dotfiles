@@ -13,6 +13,7 @@ sudo apt-get install yadm
 Bootstrap:
 
 ```bash
+rm .profile  # it will be overwritten
 yadm clone https://github.com/jojo243/dotfiles
 yadm status
 ```

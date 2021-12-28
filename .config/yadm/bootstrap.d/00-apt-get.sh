@@ -7,4 +7,9 @@ sudo apt-get install -y fish \
 	libxcb-render0-dev \
 	libxcb-shape0-dev \
 	libxcb-xfixes0-dev \
-	neovim
+	gnome-tweaks \
+	neovim \
+        cargo \
+        curl \
+	fd-find \
+	bat
